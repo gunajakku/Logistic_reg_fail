@@ -1,3 +1,5 @@
+DataHack_ GFG _ IITG _collab (16 - 17 june)
+
 This is a classification problem , I wanted to try few models and compare their performance . 
 I started with preprocessing the data, I used ordinal encoder on few columns from train_features dataframe and the rest I used Onehotencoder to encode the values. 
 I used the Training set to train a logistic regression model . My idea is to use each target variables at once to train and get the probability of predictions on test features for each then combine the data frames . 
